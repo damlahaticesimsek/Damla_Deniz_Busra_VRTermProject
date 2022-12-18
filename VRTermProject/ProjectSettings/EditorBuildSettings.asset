@@ -26,4 +26,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menuu.unity
     guid: 7d26bfffd4617844dafee26e711dae5c
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/Start Scene.unity
+    guid: 3b79cff9213ab05438eb6b4139456d62
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 19b39e9218a145f4eb750c6d59e3c8e3
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: f7eee93b0f6636f4ba04a9b349b2967e
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: 9de0209e88f21954b91fca4250536ae6
+  - enabled: 1
+    path: Assets/Scenes/End Scene.unity
+    guid: 0ee986e302c15444a892f3a6bd152ea4
   m_configObjects: {}
