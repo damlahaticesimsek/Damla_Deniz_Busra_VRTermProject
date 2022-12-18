@@ -1203,8 +1203,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1707059643}
-        m_TargetAssemblyTypeName: durdurmsmenusu, Assembly-CSharp
+      - m_Target: {fileID: 1707059644}
+        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -2627,6 +2627,7 @@ GameObject:
   - component: {fileID: 1707059640}
   - component: {fileID: 1707059639}
   - component: {fileID: 1707059643}
+  - component: {fileID: 1707059644}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2729,6 +2730,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1958481075}
+--- !u!114 &1707059644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707059638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e210f0804c2ccc34fb9ee4dc4856e8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1773459628
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class durdurmsmenusu : MonoBehaviour {
-public string sceneToLoad;
 public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     void Update(){
@@ -32,6 +31,6 @@ public static bool GameIsPaused = false;
         SceneManager.LoadScene("Start Scene");
     }
     public void QuitGame(){
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene("Forest Scene");
     }
 }
