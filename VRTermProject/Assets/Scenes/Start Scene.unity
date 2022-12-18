@@ -871,7 +871,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1647685040}
-        m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: rollingStarting, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1647685034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b0eb7b6d5f502e43a91e3488cf25da6, type: 3}
+  m_Script: {fileID: 11500000, guid: c7b26f767e3b6824cbb507f4586752ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1862652748
