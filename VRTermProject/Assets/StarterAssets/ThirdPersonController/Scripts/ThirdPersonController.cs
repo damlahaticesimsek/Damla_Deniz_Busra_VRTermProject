@@ -2,6 +2,7 @@
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
+using Photon.Pun;
 
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
@@ -106,6 +107,8 @@ namespace StarterAssets
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
 
+        PhotonView view;
+
         private const float _threshold = 0.01f;
 
         private bool _hasAnimator;
@@ -150,15 +153,20 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+
+            view = GetComponent<PhotonView>();
         }
 
         private void Update()
         {
-            _hasAnimator = TryGetComponent(out _animator);
+            if(view.IsMine)
+            {
+                _hasAnimator = TryGetComponent(out _animator);
 
-            JumpAndGravity();
-            GroundedCheck();
-            Move();
+                JumpAndGravity();
+                GroundedCheck();
+                Move();
+            }
         }
 
         private void LateUpdate()
