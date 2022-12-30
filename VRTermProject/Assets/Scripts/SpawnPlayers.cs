@@ -7,24 +7,20 @@ public class SpawnPlayers : MonoBehaviour
 {
     public GameObject playerPrefab;
     public Transform spawnPoint;
-    public GameObject playerFollow;
-    public GameObject playerCamera;
+    //public Transform playerCameraRoot;
 
     private void Start()
     {
         //TODO: Spawn Player
-        PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position,  spawnPoint.rotation);
-        //playerFollow = GameObject.FindGameObjectWithTag("PlayerFollowCamera");
-        playerCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        //PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position,  spawnPoint.rotation);
+        SpawnPlayer();
 
-       
     }
 
     void SpawnPlayer()
     {
-        PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position,  spawnPoint.rotation);
-        //PhotonNetwork.Instantiate(playerFollow.name, spawnPoint.position, spawnPoint.rotation);
-        //PhotonNetwork.Instantiate(playerCamera.name, spawnPoint.position, spawnPoint.rotation);
+        GameObject player = PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position,  spawnPoint.rotation);
+        //playerCameraRoot = player.transform;
 
     }
 

@@ -5,15 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Loading.unity
     guid: 51fa58f801535144c86913b5678f962a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lobby.unity
     guid: 5561c656317d6244a81a63dab597a4b0
-  - enabled: 1
-    path: Assets/Scenes/MultiplayerScene.unity
-    guid: c551ec9f44b56f1488feaa2f0f922c94
   - enabled: 1
     path: Assets/Scenes/DryForestEnvironment.unity
     guid: 3aa845abfe504874fad72e6f12b35968
@@ -59,4 +56,49 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest Scene.unity
     guid: 37953e42474d3e241872e4fe6e414598
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
+  - enabled: 1
+    path: Assets/Scenes/DryForestEnvironment.unity
+    guid: 3aa845abfe504874fad72e6f12b35968
   m_configObjects: {}
