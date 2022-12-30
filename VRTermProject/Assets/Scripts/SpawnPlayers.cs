@@ -6,18 +6,26 @@ using Photon.Pun;
 public class SpawnPlayers : MonoBehaviour
 {
     public GameObject playerPrefab;
-
-    public float minX;
-    public float maxX;
-    public float minY;
-    public float maxY;
-    public float minZ;
-    public float maxZ;
+    public Transform spawnPoint;
+    public GameObject playerFollow;
+    public GameObject playerCamera;
 
     private void Start()
     {
-        Vector3 randomPosition = new Vector3(Random.Range(minX, maxX), Random.Range(minY, maxY), Random.Range(minZ, maxZ));
-        PhotonNetwork.Instantiate(playerPrefab.name, randomPosition, Quaternion.identity);
+        //TODO: Spawn Player
+        PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position,  spawnPoint.rotation);
+        //playerFollow = GameObject.FindGameObjectWithTag("PlayerFollowCamera");
+        playerCamera = GameObject.FindGameObjectWithTag("MainCamera");
+
+       
+    }
+
+    void SpawnPlayer()
+    {
+        PhotonNetwork.Instantiate(playerPrefab.name, spawnPoint.position,  spawnPoint.rotation);
+        //PhotonNetwork.Instantiate(playerFollow.name, spawnPoint.position, spawnPoint.rotation);
+        //PhotonNetwork.Instantiate(playerCamera.name, spawnPoint.position, spawnPoint.rotation);
+
     }
 
 }

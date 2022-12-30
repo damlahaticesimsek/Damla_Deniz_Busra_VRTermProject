@@ -12,6 +12,8 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
     public void CreateRoom()
     {
         PhotonNetwork.CreateRoom(createInput.text);
+        Debug.Log("Created");
+
     }
 
     
@@ -22,6 +24,9 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom() 
     {
+        //PhotonNetwork.AutomaticallySyncScene = true;
         PhotonNetwork.LoadLevel("DryForestEnvironment");
+        Debug.Log("Joined a room");
     }
+
 }
